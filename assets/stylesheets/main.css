@@ -82,10 +82,20 @@ Buttons
   border-radius: 5px;
   display:inline-block;
   margin:0;
+  cursor:pointer;
+  display: inline-block;
+  font-weight:400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
 }
 .btn-alt{
   border: 1px solid #dfe2e5;
   padding: 10px 30px; 
+}
+.btn-alt:hover{
+  background: #fff;
+  color:#648880;
 }
 /*
 ==================================
@@ -259,6 +269,8 @@ a {
 .hero{
   line-height: 44px;
   text-align: center;
+  color: #fff;
+  padding:22px 80px 66px 80px;
 }
 .hero h2{
   font-size:36px;
@@ -287,4 +299,51 @@ Navigation
 */
 .nav{
   text-align: right;
+}
+.primary-header a,
+.primary-footer a{
+  color:#fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover{
+  color: #648880;
+}
+/*
+==================================
+Rows
+==================================
+*/
+.row{
+  background: #fff;
+  min-width: 960px;
+  padding:66px 0 44px 0;
+}
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row{
+  background: #fff;
+  padding: 66px 0 44px 0;
+}
+.row-alt{
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0);
+  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}
+/*
+===================================================
+
+leads
+
+===================================================
+*/
+.lead{
+  text-align: center;
+}
+.leap p{
+  font-size:21px;
+  line-height: 33px;
 }
